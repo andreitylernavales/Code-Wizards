@@ -22,5 +22,3 @@ class Calendar:
             for c, col in enumerate(row):
                 button = tk.Button(self.calendar_frame, text=str(col))
                 button.grid(row=r, column=c, padx=10, pady=10)
-
-                
