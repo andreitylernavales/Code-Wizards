@@ -20,3 +20,5 @@
                   font=("Ariel", 10, "bold")).pack(side="left", pady=5, padx=5)
         tk.Button(self.navigation, text="Today", command=self.go_to_today, bg="#5e5c5c",
                   font=("Ariel", 10, "bold")).pack(side="left", pady=5, padx=5)
+        
+        
