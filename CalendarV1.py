@@ -25,7 +25,6 @@ class CalendarGUI:
         self.parent.geometry("1200x800")
         self.parent.configure(bg="#5e5c5c")
         self.month_entry = tk.Entry()
-        self.events = []
 
         self.current_month = datetime.date.today().month
         self.current_year = datetime.date.today().year
